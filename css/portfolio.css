@@ -1,0 +1,342 @@
+body {
+	background-color: #000;
+	overflow-x: hidden;
+}
+.navbar__item_active {
+	color: #000;
+	font-weight: 500;
+}
+.footer__item_active {
+	color: #fff;
+}
+
+.navbar {
+	background-color: #000;
+}
+.navbar__logo_text {
+	color: #fff;
+}
+
+.navbar__item {
+
+	margin: 0 15px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 28px;
+
+	letter-spacing: 0.25px;
+
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar__item:hover {
+	color: rgba(255, 255, 255, 1.0);
+	cursor: pointer;
+}
+.navbar__logo_text:hover {
+	cursor: pointer;
+}
+
+.portfolio-page {
+	width: 100%;
+	height: 400px;
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 0;
+}
+.portfolio-page__title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 60px;
+	/* or 130% */
+
+	letter-spacing: 1.75px;
+
+	color: #fff;
+}
+.portfolio-page__subtitle {
+	margin-top: 25px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 36px;
+	/* or 150% */
+
+	letter-spacing: 0.24px;
+
+	color: #666;
+}
+
+.portfolio-page__navigation {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.portfolio-page__btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 40px;
+	background-color: #000;
+	margin-top: 5px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 36px;
+	/* or 150% */
+
+	letter-spacing: 0.24px;
+	color: #fff;
+
+	border: none;
+	outline: none;
+	transition: .5s ease-out all;
+	cursor: pointer;
+}
+.portfolio-page__btn_active {
+	border-bottom: 1px solid #fff;
+}
+.portfolio-page__btn:hover {
+	border-bottom: 1px solid #fff;
+}
+.portfolio-items {
+	width: 100%;
+	height: 1000px;
+	background-color: #000;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+.portfolio-items__cards_gta {
+	width: 80%;
+	height: 1000px;
+  background-color: #000;
+	padding: 85px 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+
+}
+
+
+.card_gta {
+  flex: 1 0 50%;
+  max-width: calc(50% - 15em);
+  padding: 1em;
+  border-radius: 13px;
+}
+
+.card-box_gta{
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 13px;
+  background-color: #111;
+  cursor: pointer;
+
+}
+
+.card-image_gta {
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+  background-color: #111;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+
+}
+.card-image_gta.indigo {
+	background-image: url('../img/Indigo_main.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-image_gta.express {
+	background-image: url('../img/express_main.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-image_gta.inventory {
+	background-image: url('../img/inventory_bg.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-content_gta {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.card-title_gta {
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.card-text_gta {
+  margin: 0;
+  color: #fff;
+}
+
+
+
+
+.portfolio-items__cards_website {
+	width: 80%;
+	height: 1000px;
+  background-color: #000;
+	padding: 85px 50px;
+	display: none;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card_website {
+  flex: 1 0 50%;
+  max-width: calc(50% - 15em);
+  padding: 1em;
+  border-radius: 13px;
+}
+
+.card-box_website{
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 13px;
+  background-color: #111;
+  cursor: pointer;
+
+}
+
+.card-image_website {
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+  background-color: #111;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+
+}
+.card-image_website.globalT {
+	background-image: url('../img/globaltravel.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-image_website.express {
+	background-image: url('../img/express_main.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-content_website {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.card-title_website {
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.card-text_website {
+  margin: 0;
+  color: #fff;
+}
+
+
+
+
+
+
+.portfolio-items__cards_design {
+	width: 80%;
+	height: 1000px;
+  background-color: #000;
+	padding: 85px 50px;
+	display: none;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card_design {
+  flex: 1 0 50%;
+  max-width: calc(50% - 15em);
+  padding: 1em;
+  border-radius: 13px;
+}
+
+.card-box_design{
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 13px;
+  background-color: #111;
+  cursor: pointer;
+
+}
+
+.card-image_design {
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+  background-color: #111;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+
+}
+.card-image_design.indigo {
+	background-image: url('../img/Indigo_main.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-image_design.express {
+	background-image: url('../img/express_main.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-image_design.globalT {
+	background-image: url('../img/globaltravel.png');
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.card-content_design {
+  padding: 1.5em;
+  text-align: center;
+}
+
+.card-title_design {
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.card-text_design {
+  margin: 0;
+  color: #fff;
+}
